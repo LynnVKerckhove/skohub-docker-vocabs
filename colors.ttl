@@ -4,17 +4,21 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 colour: a skos:ConceptScheme ;
-    dct:title "Colour Vocabulary"@en, "Farbvokabular"@de ;
+    dct:title "Colour Vocabulary"@en, "Farbvokabular"@de, "Kleurenvocabularium"@du ;
     dct:creator "Hans Dampf"@de ;
     dct:created "2021-11-02"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept colour:violet,  colour:yellow .
+    skos:hasTopConcept colour:violet, colour:yellow, colour:cc- yellow .
 
 colour:violet a skos:Concept ;
-    skos:prefLabel "Violett"@de, "violet"@en ;
-    skos:altLabel "Lila"@de, "purple"@en ;
+    skos:prefLabel "Violett"@de, "violet"@en, "paars"@du ;
+    skos:altLabel "Lila"@de, "purple"@en, "violet"@du ;
     skos:topConceptOf colour: .
 
 colour:yellow a skos:Concept ;
-    skos:prefLabel "Gelb"@de, "yellow"@en ;
+    skos:prefLabel "Gelb"@de, "yellow"@en; "geel"@du ;
+    skos:topConceptOf colour: .
+
+colour:cc-yellow a skos:Concept ;
+    skos:prefLabel "Cultuurconnect Gelb"@de, "Cultuurconnect yellow"@en, "Cultuurconnect geel"@du ;
     skos:topConceptOf colour: .

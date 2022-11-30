@@ -16,7 +16,7 @@ colour:violet a skos:Concept ;
     skos:topConceptOf colour: .
 
 colour:yellow a skos:Concept ;
-    skos:prefLabel "Gelb"@de, "yellow"@en; "geel"@du ;
+    skos:prefLabel "Gelb"@de, "yellow"@en, "geel"@du ;
     skos:topConceptOf colour: .
 
 colour:cc-yellow a skos:Concept ;

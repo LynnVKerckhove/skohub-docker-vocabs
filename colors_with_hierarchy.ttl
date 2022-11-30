@@ -17,9 +17,13 @@ colour:violet a skos:Concept ;
 
 colour:green a skos:Concept ;
     skos:prefLabel "green"@en, "Grün"@de ;
-    skos:narrower colour:grassgreen ;
+    skos:narrower colour:grassgreen, colour:ccgreen ;
     skos:topConceptOf colour: .
     
 colour:grassgreen a skos:Concept ;
     skos:prefLabel "grass-green"@en, "Grasgrün"@de ;
+    skos:inScheme colour: .
+
+colour:ccgreen a skos:Concept ;
+    skos:prefLabel "Cultuurconnect green"@en, "Cultuurconnect Grün"@de ;
     skos:inScheme colour: .

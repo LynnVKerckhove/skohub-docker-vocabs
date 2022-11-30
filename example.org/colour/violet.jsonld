@@ -3,8 +3,7 @@
   "type": "Concept",
   "prefLabel": {
     "en": "violet",
-    "de": "Violett",
-    "du": "violet"
+    "de": "Violett"
   },
   "altLabel": {
     "en": [
@@ -12,17 +11,13 @@
     ],
     "de": [
       "Lila"
-    ],
-    "du": [
-      "paars"
     ]
   },
   "inScheme": {
     "id": "https://example.org/colour/",
     "title": {
       "en": "Colour Vocabulary",
-      "de": "Farbvokabular",
-      "du": "Kleurvocabularium"
+      "de": "Farbvokabular"
     }
   },
   "topConceptOf": {

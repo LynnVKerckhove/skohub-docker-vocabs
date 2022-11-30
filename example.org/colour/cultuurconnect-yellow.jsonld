@@ -3,15 +3,13 @@
   "type": "Concept",
   "prefLabel": {
     "en": "Cultuurconnect yellow",
-    "de": "Cultuurconnect Gelb",
-    "du": "Cultuurconnect-geel"
+    "de": "Cultuurconnect Gelb"
   },
   "inScheme": {
     "id": "https://example.org/colour/",
     "title": {
       "en": "Colour Vocabulary",
-      "de": "Farbvokabular",
-      "du": "Kleurvocabularium"
+      "de": "Farbvokabular"
     }
   },
   "topConceptOf": {

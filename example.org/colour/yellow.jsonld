@@ -1,9 +1,9 @@
 {
-  "id": "https://example.org/colour/cultuurconnect-yellow",
+  "id": "https://example.org/colour/yellow",
   "type": "Concept",
   "prefLabel": {
-    "en": "Cultuurconnect yellow",
-    "de": "Cultuurconnect Gelb"
+    "en": "yellow",
+    "de": "Gelb"
   },
   "inScheme": {
     "id": "https://example.org/colour/",

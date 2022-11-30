@@ -12,6 +12,13 @@
         "en": "grass-green",
         "de": "Grasgrün"
       }
+    },
+    {
+      "id": "https://example.org/colour-with-hierarchy/ccgreen",
+      "prefLabel": {
+        "en": "Cultuurconnect green",
+        "de": "Cultuurconnect Grün"
+      }
     }
   ],
   "inScheme": {
